@@ -1,30 +1,18 @@
 // Business Logic
-let inputArray = [];
-  if (numInput > 0) {
-    numInput -= 1;
-    inputArray.push(numInput);
-  }
+
+
+//   if (numInput > 0) {
+//     numInput -= 1;
+//     inputArray.push(numInput);
+//   }
 // return inputArray;
-console.log(inputArray);
+// console.log(inputArray);
 
-const numberInput = "";
-numberInput.forEach(function(number) {
-  number 
-})
+// inputArray.forEach(function(number) {
+//   alert(number); 
+// })
 
-const numConverter = function(num) {
-  // let numberInput = "";
-  if (num > 0) {
-    num -= 1;
-    array.push(num);
-    console.log(num)
-  } else if (num.contains(1)) {
-    num.replaceValue("Beep!");
-  } else if (num.contains(2)) {
-    num.replaceValue("Boop!");
-  } else if (num.contains(3)) {
-    num.replaceValue("Won't you be my neighbor?");
-  }
+
 
 
 
@@ -35,19 +23,25 @@ $(document).ready(function() {
     event.preventDefault(event);
     const numberInput = parseInt($(numInput).val());
     console.log("You typed " + numberInput);
-    
+    let inputArray = [0];
+    let returnArray = [];
+    for (let index = 0; index === numberInput; index += 1) {
+      returnArray.push(inputArray[index] + 1);
+    };
+    returnArray;
+    console.log(returnArray);
+    })
     
     // if (!numInput || numInput < 0)
     //   alert("Please enter a valid positive integer for Mr. Rogers to translate.");
     //   return;
-    console.log("alert works");
-    const output = numConverter(numInput)
+    // console.log("alert works");
+    // const output = numConverter(numInput)
 
-    $(".results").show();
-    console.log("results are showing");
-    $("#numInput").text(numberInput);
-    console.log("results taken from numInput");
-    $("#output").text(output);
-    console.log("results are being sent to output");
-  })
-})
+    // $(".results").show();
+    // console.log("results are showing");
+    // $("#numInput").text(numberInput);
+    // console.log("results taken from numInput");
+    // $("#output").text(output);
+    // console.log("results are being sent to output");
+  });
