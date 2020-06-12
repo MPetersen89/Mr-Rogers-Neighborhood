@@ -1,14 +1,32 @@
 // Business Logic
+let inputArray = [];
+  if (numInput > 0) {
+    numInput -= 1;
+    inputArray.push(numInput);
+  }
+// return inputArray;
+console.log(inputArray);
+
+const numberInput = "";
+numberInput.forEach(function(number) {
+  number 
+})
+
 const numConverter = function(num) {
-  let array = [];
   // let numberInput = "";
-  while (num > 0) {
-    if (num > 0)
+  if (num > 0) {
     num -= 1;
     array.push(num);
     console.log(num)
+  } else if (num.contains(1)) {
+    num.replaceValue("Beep!");
+  } else if (num.contains(2)) {
+    num.replaceValue("Boop!");
+  } else if (num.contains(3)) {
+    num.replaceValue("Won't you be my neighbor?");
   }
-}
+
+
 
 // User Interface Logic
 
@@ -17,9 +35,8 @@ $(document).ready(function() {
     event.preventDefault(event);
     const numberInput = parseInt($(numInput).val());
     console.log("You typed " + numberInput);
-    numberInput.forEach(function(number) {
-
-    })
+    
+    
     // if (!numInput || numInput < 0)
     //   alert("Please enter a valid positive integer for Mr. Rogers to translate.");
     //   return;
