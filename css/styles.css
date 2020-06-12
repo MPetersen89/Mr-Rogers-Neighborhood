@@ -6,4 +6,5 @@
 
 .results {
   text-align: center;
+  word-wrap: inherit;
 }
