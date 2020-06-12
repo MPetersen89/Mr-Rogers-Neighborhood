@@ -36,7 +36,7 @@ Open via Bash/GitBash:
 
 ## Known Bugs
 
-_Currently does not work._
+_Currently does not work. Code does not reach output._
 
 ## Support and contact details
 

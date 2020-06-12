@@ -15,11 +15,11 @@ $(document).ready(function() {
   $("form#input").submit(function(event) {
     event.preventDefault(event);
     const numberInput = parseInt($("input[name=number]").val());
-
+    console.log("input accepted and converted to int");
     if (!numInput || numInput < 0)
       alert("Please enter a valid positive integer for Mr. Rogers to translate.");
       return;
-
+    console.log("alert works");
     const output = numConverter(numInput)
 
     $(".results").show();
