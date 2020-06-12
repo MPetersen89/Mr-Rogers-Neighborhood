@@ -1,8 +1,9 @@
 // Business Logic
-const array = parseInt($("input#numInput").val());
+const input = parseInt($("input#numInput").val());
 let newArray = [];
-  array.forEach(function(element) {
-    newArray.push(element += 1);
+  input.forEach(function(element) {
+    element = input + 1;
+    newArray.push(element);
   })
   console.log(newArray);
 
