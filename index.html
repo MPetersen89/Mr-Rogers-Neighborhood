@@ -12,10 +12,16 @@
   <body>
     <div class="container">
       <div class="header">
-        <h1>"Question: Won't you be my neighbor? Beep, boop!"</h1>
-        <h3>"Statement: Please enter a number for Mr. Rogers to translate."</h3>
-        <input type="number" id="numInput">
-        <img src="img/MrRogers.jpg" id="mrRogersImg">
+        <form id="input">
+          <h1>"Question: Won't you be my neighbor? Beep, boop!"</h1>
+          <h3>"Statement: Please enter a number for Mr. Rogers to translate."</h3>
+          <input type="number" id="numInput" name="number">
+          <button type="submit" id="submitButton" class="btn btn-warning btn-primary active">Submit</button>
+          <img src="img/MrRogers.jpg" id="mrRogersImg">
+        </form>
+      </div>
+      <div class="results">
+        <span id="output"></span>
       </div>
     </div>
   </body>
