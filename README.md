@@ -15,8 +15,8 @@ _This project is designed to take a user input of a positive integer and, using 
 |Program returns a range of numbers from 0 to the user's inputted number |   "4"   |   "0, 1, 2, 3, 4"   |
 |Program converts numbers containing a "1" to "Beep!" | "51" | "Beep!" |
 |Program converts numbers containing a "2" to "Boop!" and override previous behavior | "21" | "Boop!" |
-Program converts numbers containing a "3" to "Won't you be my neighbor?" and override previous behaviors | "321" | "Won't you be my neighbor?" |
-Program returns a range of converted numbers, adhering to previous behaviors | "15" | "0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!"" 
+|Program converts numbers containing a "3" to "Won't you be my neighbor?" and override previous behaviors | "321" | "Won't you be my neighbor?" |
+|Program returns a range of converted numbers, adhering to previous behaviors | "15" | "0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!"" 
 
 ## Setup/Installation Requirements
 
